@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Carro</title>
+</head>
+<body>
+  <h2>Registro de Carro</h2>
+  <form action="/carro" method="post">
+    <label for="marca">Marca:</label>
+    <input type="text" id="marca" name="marca" required>
+    <br>
+    <!-- Adicione os outros campos do carro aqui -->
+    <br>
+    <button type="submit">Registrar Carro</button>
+  </form>
+</body>
+</html>
